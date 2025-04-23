@@ -7,7 +7,7 @@ function lerEntrada() {
 
     //Apresentar a informação no painel de resposta:
     if (idade != "" && idade != undefined && idade != null ) {
-        document.getElementById("resp").innerHTML = `Idade informada: ${idade}`;
+        document.getElementById("resp").innerHTML = `<div class='tile'>Idade informada: ${idade} </div>`;
         votacao(idade);
     }
 }
